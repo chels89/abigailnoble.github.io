@@ -1,0 +1,30 @@
+body{
+	background:#426bea;
+	/*background: url("images/ocean.png");*/
+	background-size: cover;
+	color:yellow;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.ogreintro{
+	color:blue;
+	cursor:url("images/ogre.png"),default;
+}
+.ogreintro:hover{
+	color: #035207;
+	text-decoration: none;
+}
+.donkeyintro{
+	color:blue;
+	cursor:url("images/purpledonkey.jpeg"),default;
+}
+.donkeyintro:hover{
+	color: purple;
+	text-decoration: none;
+}
+.firstlink:hover{
+	color: #610d03;
+	font-size:bold;
+}
+#randomthoughts{
+	color: blue;
+}
