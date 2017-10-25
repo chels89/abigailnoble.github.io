@@ -1,12 +1,11 @@
 body{
-	background:#426bea;
-	/*background: url("images/ocean.png");*/
+	
+	background: url("images/ocean.png");
 	background-size: cover;
 	color:yellow;
 	font-family: Helvetica, Arial, sans-serif;
 }
 .ogreintro{
-	color:blue;
 	cursor:url("images/ogre.png"),default;
 }
 .ogreintro:hover{
@@ -14,7 +13,6 @@ body{
 	text-decoration: none;
 }
 .donkeyintro{
-	color:blue;
 	cursor:url("images/purpledonkey.jpeg"),default;
 }
 .donkeyintro:hover{
@@ -25,6 +23,17 @@ body{
 	color: #610d03;
 	font-size:bold;
 }
-#randomthoughts{
-	color: blue;
+.title{
+	border: 3px;
+	padding:8px;
+	background: black;
+}
+
+p {
+	border 3px;
+	padding: 8px;
+	color:red;
+	background:black;
+	display:inline-block;
+	opacity:0.75;
 }
