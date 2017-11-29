@@ -1,39 +1,23 @@
 body{
 	
-	background: url("images/ocean.png");
-	background-size: cover;
-	color:yellow;
-	font-family: Helvetica, Arial, sans-serif;
+	background: black;
+	color:#d9dbe4;
+	font-family: Arial, sans-serif;
 }
-.ogreintro{
-	cursor:url("images/ogre.png"),default;
-}
-.ogreintro:hover{
-	color: #035207;
-	text-decoration: none;
-}
-.donkeyintro{
-	cursor:url("images/purpledonkey.jpeg"),default;
-}
-.donkeyintro:hover{
-	color: purple;
-	text-decoration: none;
-}
-.firstlink:hover{
-	color: #610d03;
-	font-size:bold;
-}
+
 .title{
 	border: 3px;
 	padding:8px;
-	background: black;
+	background: #252563;
 }
 
 p {
 	border 3px;
+	font-family:Times new roman;
 	padding: 8px;
-	color:red;
-	background:black;
 	display:inline-block;
-	opacity:0.75;
+}
+
+ul {
+	font-family: Times New Roman;
 }
