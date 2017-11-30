@@ -1,23 +1,54 @@
 body{
 	
-	background: black;
-	color:#d9dbe4;
-	font-family: Arial, sans-serif;
+	background: #eeeff3;
+	color:#0d0d10;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.6;
 }
 
 .title{
 	border: 3px;
-	padding:8px;
+	padding:8px 16px;
+	color: #8792c1;
 	background: #252563;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+	border-radius: 3px;
 }
 
 p {
-	border 3px;
-	font-family:Times new roman;
 	padding: 8px;
-	display:inline-block;
 }
 
 ul {
-	font-family: Times New Roman;
+	color:#999;
+	list-style-type: disc;
+}
+#frame{
+	min-width: 100px; 
+	max-width:800px;
+	margin:0 auto;
+}
+
+#frame img{
+	width:100%;
+}
+#emailMe {
+	background: white;
+	padding: 3px 7px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	font-size: 80%;
+	text-decoration: none;
+	transition:all 0.3s;
+}
+
+#emailMe:hover{
+	color:#1c2950;
+	background: #a8b4ec;
+}
+strong {
+	font-weight: 600;
+	color:#252563;
 }
