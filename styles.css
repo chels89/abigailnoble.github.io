@@ -1,5 +1,4 @@
 body{
-	
 	background: #eeeff3;
 	color:#0d0d10;
 	font-family: 'Open Sans', sans-serif;
@@ -14,20 +13,25 @@ body{
 	font-weight: 200;
 	letter-spacing: 0.01em;
 	border-radius: 4px;
-	border-left: 15px solid #a268ff;
+	font-size: 80%;
 }
 h1 .title{
 	display: block;
+	text-shadow: 2px 2px 6px rgba(0,0,0,.8);
 	font-size: 200%;
-	background: url(images/happiness_sunset.jpg) no-repeat;
+	background: url(images/sunset-crop.jpg) no-repeat;
 	background-size: cover;
 	background-position: bottom;
-	border-color: #c58d2e;
-	padding-top: 80px;
+	padding-top: 120px;
+	padding-bottom: 0px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
 }
-
+h1 {
+	margin:0;
+}
 p {
-	padding: 8px;
+	font-size: 110%;
 }
 
 ul {
@@ -43,21 +47,34 @@ ul {
 #frame img{
 	width:100%;
 }
-#emailMe {
-	background: white;
-	padding: 3px 7px;
-	border: 1px solid #999;
-	border-radius: 6px;
+.button {
+	background: #c58d2e;
+	color:white;
+	font-weight: 600;
+	padding: 10px 16px;
 	font-size: 80%;
 	text-decoration: none;
 	transition:all 0.3s;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+	display: inline-block;
+}
+.buttons {
+	background: #c58d2e;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+	text-align: center;
+}
+.button:hover{
+	color:white;
+	background: #d4a555;
 }
 
-#emailMe:hover{
-	color:#1c2950;
-	background: #a8b4ec;
-}
 strong {
 	font-weight: 600;
 	color:#252563;
+}
+@media only screen and (max-width: 600px)  {
+	h1 .title{
+		font-size: 120%;
+	}
 }
